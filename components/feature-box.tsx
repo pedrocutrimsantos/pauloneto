@@ -23,7 +23,7 @@ export function FeatureBox({ number, text, icon }: FeatureBoxProps) {
   }
 
   return (
-    <div className="bg-white text-[#00114d] p-8 rounded-xl w-full max-w-[250px] shadow-lg hover:shadow-xl transition-all duration-300 hover:transform hover:scale-105 flex flex-col items-center">
+    <div className="bg-white text-[#00114d] p-8 rounded-xl w-full max-w-[250px] shadow-lg hover:shadow-xl transition-all duration-300 hover:transform hover:scale-105 flex flex-col items-center text-center">
       {getIcon()}
       <h3 className="text-4xl font-bold mb-2">{number}</h3>
       <p className="text-base">{text}</p>

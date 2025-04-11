@@ -58,13 +58,12 @@ export function TestimonialsSection() {
     return () => clearInterval(interval)
   }, [])
 
+  // Melhorar a centralização e o design da seção de depoimentos
   return (
-    <section className="py-20 px-5 bg-gradient-to-b from-gray-50 to-white">
-      <div className="container mx-auto">
-        <h2 className="text-4xl font-bold mb-3 text-[#f2c744] text-center">O Que Nossos Clientes Dizem</h2>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-12 text-center">
-          A satisfação dos nossos clientes é o nosso maior orgulho
-        </p>
+    <section className="section-padding bg-gradient-to-b from-gray-50 to-white">
+      <div className="container-custom">
+        <h2 className="section-title">O Que Nossos Clientes Dizem</h2>
+        <p className="section-description">A satisfação dos nossos clientes é o nosso maior orgulho</p>
 
         <div className="relative max-w-4xl mx-auto">
           <div className="overflow-hidden">
@@ -84,8 +83,8 @@ export function TestimonialsSection() {
                           className="object-cover"
                         />
                       </div>
-                      <div className="flex-1">
-                        <div className="flex mb-3">
+                      <div className="flex-1 text-center md:text-left">
+                        <div className="flex justify-center md:justify-start mb-3">
                           {[...Array(testimonial.rating)].map((_, i) => (
                             <Star key={i} size={20} className="fill-yellow-400 text-yellow-400" />
                           ))}

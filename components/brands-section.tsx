@@ -69,11 +69,12 @@ export function BrandsSection() {
     }
   }, [])
 
+  // Melhorar a centralização e o design da seção de marcas
   return (
-    <section id="marcas" className="py-20 px-5 bg-white">
-      <div className="container mx-auto">
-        <h2 className="text-4xl font-bold mb-3 text-[#f2c744] text-center">Marcas Parceiras</h2>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-12 text-center">
+    <section id="marcas" className="section-padding bg-white">
+      <div className="container-custom">
+        <h2 className="section-title">Marcas Parceiras</h2>
+        <p className="section-description">
           Trabalhamos com as melhores marcas do mercado para garantir a qualidade dos nossos produtos
         </p>
         <div

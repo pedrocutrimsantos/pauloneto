@@ -45,7 +45,15 @@ export function Navbar() {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <Link
-              href="#produtos"
+              href="/"
+              className={`${
+                isScrolled ? "text-white" : "text-white"
+              } hover:text-[#f2c744] transition-colors font-medium`}
+            >
+              Home
+            </Link>
+            <Link
+              href="/produtos"
               className={`${
                 isScrolled ? "text-white" : "text-white"
               } hover:text-[#f2c744] transition-colors font-medium`}
@@ -53,7 +61,7 @@ export function Navbar() {
               Produtos
             </Link>
             <Link
-              href="#sobre"
+              href="/sobre"
               className={`${
                 isScrolled ? "text-white" : "text-white"
               } hover:text-[#f2c744] transition-colors font-medium`}
@@ -61,7 +69,7 @@ export function Navbar() {
               Sobre Nós
             </Link>
             <Link
-              href="#marcas"
+              href="/marcas"
               className={`${
                 isScrolled ? "text-white" : "text-white"
               } hover:text-[#f2c744] transition-colors font-medium`}
@@ -69,7 +77,7 @@ export function Navbar() {
               Marcas
             </Link>
             <Link
-              href="#contato"
+              href="/#contato"
               className={`${
                 isScrolled ? "text-white" : "text-white"
               } hover:text-[#f2c744] transition-colors font-medium`}
@@ -100,29 +108,36 @@ export function Navbar() {
           <div className="md:hidden bg-[#00114d] mt-4 rounded-lg shadow-xl p-4 absolute left-4 right-4 z-50">
             <div className="flex flex-col space-y-4">
               <Link
-                href="#produtos"
-                className="text-white hover:text-[#f2c744] transition-colors font-medium py-2"
+                href="/"
+                className="text-white hover:text-[#f2c744] transition-colors font-medium py-2 text-center"
+                onClick={() => setIsOpen(false)}
+              >
+                Home
+              </Link>
+              <Link
+                href="/produtos"
+                className="text-white hover:text-[#f2c744] transition-colors font-medium py-2 text-center"
                 onClick={() => setIsOpen(false)}
               >
                 Produtos
               </Link>
               <Link
-                href="#sobre"
-                className="text-white hover:text-[#f2c744] transition-colors font-medium py-2"
+                href="/sobre"
+                className="text-white hover:text-[#f2c744] transition-colors font-medium py-2 text-center"
                 onClick={() => setIsOpen(false)}
               >
                 Sobre Nós
               </Link>
               <Link
-                href="#marcas"
-                className="text-white hover:text-[#f2c744] transition-colors font-medium py-2"
+                href="/marcas"
+                className="text-white hover:text-[#f2c744] transition-colors font-medium py-2 text-center"
                 onClick={() => setIsOpen(false)}
               >
                 Marcas
               </Link>
               <Link
-                href="#contato"
-                className="text-white hover:text-[#f2c744] transition-colors font-medium py-2"
+                href="/#contato"
+                className="text-white hover:text-[#f2c744] transition-colors font-medium py-2 text-center"
                 onClick={() => setIsOpen(false)}
               >
                 Contato

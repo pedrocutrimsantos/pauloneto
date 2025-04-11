@@ -43,13 +43,12 @@ export function FaqSection() {
     setOpenIndex(openIndex === index ? null : index)
   }
 
+  // Melhorar a centralização e o design da seção de FAQ
   return (
-    <section id="faq" className="py-20 px-5 bg-white">
-      <div className="container mx-auto max-w-4xl">
-        <h2 className="text-4xl font-bold mb-3 text-[#f2c744] text-center">Perguntas Frequentes</h2>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-12 text-center">
-          Tire suas dúvidas sobre nossos produtos e serviços
-        </p>
+    <section id="faq" className="section-padding bg-white">
+      <div className="container-custom max-w-4xl">
+        <h2 className="section-title">Perguntas Frequentes</h2>
+        <p className="section-description">Tire suas dúvidas sobre nossos produtos e serviços</p>
 
         <div className="space-y-4">
           {faqs.map((faq, index) => (

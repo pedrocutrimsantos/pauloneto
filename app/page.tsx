@@ -20,10 +20,10 @@ export default function Home() {
       <HeroSection />
 
       {/* Features Section */}
-      <section className="py-20 px-5 text-center bg-gradient-to-b from-white to-gray-50">
-        <div className="container mx-auto">
-          <h2 className="text-4xl font-bold mb-3 text-[#f2c744]">Destaques da Loja</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-12">
+      <section className="section-padding bg-gradient-to-b from-white to-gray-50">
+        <div className="container-custom">
+          <h2 className="section-title">Destaques da Loja</h2>
+          <p className="section-description">
             Há mais de uma década oferecendo os melhores produtos e serviços para sua construção
           </p>
           <div className="flex flex-col md:flex-row justify-center gap-6 mt-8 items-center">
@@ -51,10 +51,10 @@ export default function Home() {
       <FaqSection />
 
       {/* Contact Form Section */}
-      <section className="py-20 px-5 text-center bg-gradient-to-b from-gray-50 to-white">
-        <div className="container mx-auto">
-          <h2 className="text-4xl font-bold mb-3 text-[#f2c744]">Entre em Contato</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-12">
+      <section className="section-padding bg-gradient-to-b from-gray-50 to-white" id="contato">
+        <div className="container-custom">
+          <h2 className="section-title">Entre em Contato</h2>
+          <p className="section-description">
             Preencha o formulário abaixo para solicitar orçamentos, tirar dúvidas ou fazer sugestões. Nossa equipe
             entrará em contato o mais breve possível.
           </p>
@@ -63,10 +63,10 @@ export default function Home() {
       </section>
 
       {/* Location Section */}
-      <section className="py-20 px-5 text-center bg-white">
-        <div className="container mx-auto">
-          <h2 className="text-4xl font-bold mb-3 text-[#f2c744]">Localização</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-12">
+      <section className="section-padding bg-white">
+        <div className="container-custom">
+          <h2 className="section-title">Localização</h2>
+          <p className="section-description">
             Visite nossa loja física e conheça nosso showroom completo com as melhores opções para sua construção
           </p>
           <div className="max-w-4xl mx-auto rounded-xl overflow-hidden shadow-lg">
@@ -79,13 +79,13 @@ export default function Home() {
             ></iframe>
           </div>
           <div className="mt-8 bg-white rounded-xl shadow-md p-6 max-w-2xl mx-auto">
-            <h3 className="text-xl font-bold text-[#00114d] mb-4">Horário de Funcionamento</h3>
+            <h3 className="text-xl font-bold text-[#00114d] mb-4 text-center">Horário de Funcionamento</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
+              <div className="text-center">
                 <p className="font-semibold">Segunda a Sexta</p>
                 <p>08:00 - 18:00</p>
               </div>
-              <div>
+              <div className="text-center">
                 <p className="font-semibold">Sábados</p>
                 <p>08:00 - 12:00</p>
               </div>

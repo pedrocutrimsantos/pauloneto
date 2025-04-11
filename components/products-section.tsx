@@ -71,10 +71,10 @@ export function ProductsSection() {
     activeTab === "todos" ? products : products.filter((product) => product.category === activeTab)
 
   return (
-    <section id="produtos" className="py-20 px-5 text-center bg-white">
-      <div className="container mx-auto">
-        <h2 className="text-4xl font-bold mb-3 text-[#f2c744]">Nossos Produtos</h2>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-12">
+    <section id="produtos" className="section-padding bg-white">
+      <div className="container-custom">
+        <h2 className="section-title">Nossos Produtos</h2>
+        <p className="section-description">
           Na Paulo Neto Construções você encontra tudo para sua obra do início ao fim, com qualidade e preço justo
         </p>
 
@@ -121,7 +121,7 @@ export function ProductsSection() {
           ))}
         </div>
 
-        <div className="mt-12">
+        <div className="mt-12 text-center">
           <a
             href="#contato"
             className="inline-flex items-center bg-[#00114d] text-white px-8 py-4 rounded-lg font-bold hover:bg-[#001a6e] transition-colors"

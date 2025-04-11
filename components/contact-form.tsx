@@ -62,8 +62,8 @@ export function ContactForm() {
   return (
     <div id="contato" className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
       <div className="bg-[#00114d] text-white p-8 rounded-xl shadow-lg">
-        <h3 className="text-2xl font-bold mb-6 text-[#f2c744]">Informações de Contato</h3>
-        <p className="mb-8">
+        <h3 className="text-2xl font-bold mb-6 text-[#f2c744] text-center md:text-left">Informações de Contato</h3>
+        <p className="mb-8 text-center md:text-left">
           Estamos prontos para atender você e tirar todas as suas dúvidas. Entre em contato conosco pelos canais abaixo
           ou preencha o formulário.
         </p>
@@ -116,7 +116,7 @@ export function ContactForm() {
         </div>
 
         <div className="mt-12">
-          <h4 className="font-semibold text-[#f2c744] mb-4">Horário de Funcionamento</h4>
+          <h4 className="font-semibold text-[#f2c744] mb-4 text-center md:text-left">Horário de Funcionamento</h4>
           <div className="space-y-2">
             <div className="flex justify-between">
               <span>Segunda a Sexta</span>
@@ -136,7 +136,7 @@ export function ContactForm() {
 
       <div>
         <form onSubmit={handleSubmit} className="bg-white p-8 rounded-xl shadow-lg">
-          <h3 className="text-2xl font-bold mb-6 text-[#00114d]">Envie sua Mensagem</h3>
+          <h3 className="text-2xl font-bold mb-6 text-[#00114d] text-center md:text-left">Envie sua Mensagem</h3>
           <div className="space-y-5">
             <div>
               <Label htmlFor="name" className="text-[#00114d] font-medium">

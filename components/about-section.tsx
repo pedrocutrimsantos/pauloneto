@@ -12,11 +12,12 @@ export function AboutSection() {
   ]
 
   return (
-    <section id="sobre" className="py-20 px-5 bg-gray-50">
-      <div className="container mx-auto">
+    <section id="sobre" className="section-padding bg-gray-50">
+      <div className="container-custom">
+        <h2 className="section-title mb-12">Sobre a Paulo Neto Construções</h2>
+
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
-            <h2 className="text-4xl font-bold mb-6 text-[#f2c744]">Sobre a Paulo Neto Construções</h2>
             <p className="text-lg text-gray-700 mb-6">
               A Paulo Neto Construções é uma empresa com mais de 10 anos de experiência no mercado de materiais de
               construção. Nosso compromisso é oferecer produtos de alta qualidade, com preços justos e um atendimento
