@@ -30,28 +30,29 @@
 
     header {
       text-align: center;
-      padding: 40px 20px 30px;
-      background-color: var(--amarelo);
+      padding: 40px 20px;
+      background: linear-gradient(rgba(0, 17, 77, 0.85), rgba(0, 17, 77, 0.85)), url('https://blog.laredo.com.br/wp-content/uploads/2017/11/cuidados-que-voce-deve-ter-ao-contratar-a-mao-de-obra-para-construir-sua-casa-1280x720.jpeg') no-repeat center/cover;
     }
 
     header img {
-      width: 300px;
+      width: 280px;
       height: auto;
+      filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.4));
     }
 
     .hero {
       text-align: center;
-      padding: 60px 20px;
+      padding: 15px 20px;
       background-color: var(--amarelo);
     }
 
     .hero h1 {
-      font-size: 2.5rem;
+      font-size: 2.8rem;
       margin-bottom: 20px;
     }
 
     .hero p {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       max-width: 700px;
       margin: 0 auto 30px;
     }
@@ -63,12 +64,13 @@
       font-weight: bold;
       text-decoration: none;
       border-radius: 8px;
-      transition: background-color 0.3s ease;
+      transition: all 0.3s ease;
       display: inline-block;
     }
 
     .cta:hover {
       background-color: #001a6e;
+      transform: scale(1.05);
     }
 
     .section {
@@ -78,14 +80,14 @@
 
     .section h2 {
       color: var(--amarelo);
-      font-size: 2rem;
+      font-size: 2.2rem;
       margin-bottom: 20px;
     }
 
     .section p {
       max-width: 700px;
       margin: 0 auto;
-      font-size: 1.1rem;
+      font-size: 1.15rem;
     }
 
     .features {
@@ -100,9 +102,10 @@
       background-color: var(--amarelo);
       color: var(--azul);
       padding: 30px;
-      border-radius: 8px;
-      width: 200px;
+      border-radius: 12px;
+      width: 220px;
       font-size: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
 
     .feature-box h3 {
@@ -148,7 +151,7 @@
     }
 
     .marcas img:hover {
-      transform: scale(1.05);
+      transform: scale(1.1);
     }
 
     .mapa iframe {
@@ -181,11 +184,12 @@
       font-size: 0.95rem;
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
       z-index: 1000;
-      transition: background-color 0.3s ease;
+      transition: background-color 0.3s ease, transform 0.2s ease;
     }
 
     .whatsapp-float:hover {
       background-color: #1ebc5b;
+      transform: scale(1.1);
     }
 
     @media (max-width: 768px) {
@@ -245,7 +249,7 @@
     <div class="produtos-imgs">
       <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2023/12/AdobeStock_630733141_Easy-Resize.com_-1024x682.jpg" alt="Trabalhador com cimento">
       <img src="https://images.adsttc.com/media/images/5e4e/b836/6ee6/7e4d/0300/0003/newsletter/shutterstock_710379151.jpg?1582217266" alt="Trabalhador assentando piso">
-      <img src="https://conecta.fg.com.br/wp-content/uploads/2024/09/35_Especial_Dia_do_Encanador_blog.png" alt="Trabalhador encanador">
+      <img src="https://encanadorcuritiba.com/wp-content/uploads/2023/05/encanador-licenciado-banheiro.jpg" alt="Trabalhador encanador">
       <img src="https://i0.wp.com/s3.sa-east-1.amazonaws.com/static.inbep.com.br/wp-content/uploads/2022/10/17154128/image-2-e1666032133196.png?resize=600%2C370&ssl=1" alt="Trabalhador eletricista">
       <img src="https://media.istockphoto.com/id/622800884/pt/foto/close-up-of-industrial-bricklayer-installing-bricks-on-construction-site.jpg?s=612x612&w=0&k=20&c=yJ3vnBuPtYxiWfEqEoHA1emR7ePbroJsbRe2gvsxNr0=" alt="Trabalhador predeiro">
     </div>
@@ -273,8 +277,17 @@
     </div>
   </section>
 
-  <footer>
+  <footer style="background-color: #00114d; color: white; padding: 20px; text-align: center;">
     <p>&copy; 2025 Paulo Neto Construções - Todos os direitos reservados</p>
+    <p>Email: <a href="mailto:contato@paulonetoconstrucao.com.br" style="color: #f2c744;">contato@paulonetoconstrucao.com.br</a></p>
+    
+    <div style="margin: 10px 0;">
+      <a href="https://www.facebook.com/paulonetoconstrucao" target="_blank" style="color: #f2c744; margin: 0 10px;">Facebook</a>
+      <a href="https://www.instagram.com/paulonetoconstrucao" target="_blank" style="color: #f2c744; margin: 0 10px;">Instagram</a>
+      <a href="https://wa.me/5599999999999" target="_blank" style="color: #f2c744; margin: 0 10px;">WhatsApp</a>
+    </div>
+  
+    <p>Para orçamentos e contratos, entre em contato conosco via e-mail ou WhatsApp.</p>
   </footer>
 
   <a class="whatsapp-float" href="https://wa.me/5598984388342" target="_blank">Fale Conosco</a>
