@@ -17,7 +17,7 @@ export function TestimonialsSection() {
     {
       id: 2,
       name: "Maria Oliveira",
-      role: "Arquiteta",
+      role: "Cliente",
       image: "/images/testimonial-2.jpg",
       text: "Encontrei todos os materiais que precisava para meu projeto. A equipe é muito prestativa e me ajudou a escolher as melhores opções. Voltarei com certeza!",
       rating: 5,
@@ -25,7 +25,7 @@ export function TestimonialsSection() {
     {
       id: 3,
       name: "Carlos Santos",
-      role: "Engenheiro Civil",
+      role: "Cliente",
       image: "/images/testimonial-3.jpg",
       text: "Trabalho com a Paulo Neto há anos e nunca tive problemas. Material de primeira linha, entrega pontual e preços justos. Uma parceria que dá certo!",
       rating: 5,

@@ -200,7 +200,7 @@ export default function Home() {
                     <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
                     <circle cx="12" cy="10" r="3" />
                   </svg>
-                  <span>Av. Principal, 1234, Centro - Cidade/UF</span>
+                  <span>Av. Major Silva Filho, 906, Centro - Araguanã/MA</span>
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -278,7 +278,7 @@ export default function Home() {
           <div className="border-t border-gray-800 mt-10 pt-6 text-center">
             <p>&copy; {new Date().getFullYear()} Paulo Neto Construções - Todos os direitos reservados</p>
             <p className="text-sm text-gray-400 mt-2">
-              Desenvolvido com <span className="text-red-500">❤</span> por Sua Empresa
+              Desenvolvido por <span className="text-red-500"></span> Pedro Cutrim dos santos
             </p>
           </div>
         </div>

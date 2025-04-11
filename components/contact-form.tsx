@@ -109,8 +109,8 @@ export function ContactForm() {
             </div>
             <div>
               <h4 className="font-semibold text-[#f2c744]">Endereço</h4>
-              <p>Av. Principal, 1234, Centro</p>
-              <p>Cidade/UF - CEP: 00000-000</p>
+              <p>Av. Major Silva Filho, 98, Centro</p>
+              <p>Araguanã/MA - CEP: 65368-000</p>
             </div>
           </div>
         </div>
