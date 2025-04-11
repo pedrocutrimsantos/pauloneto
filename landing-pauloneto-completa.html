@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paulo Neto Construções</title>
+  <meta name="description" content="Materiais de construção com qualidade, confiança e entrega rápida." />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --azul: #00114d;
+      --amarelo: #f1ce00;
+      --branco: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background-color: var(--branco);
+      color: var(--azul);
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px 30px;
+      background-color: var(--amarelo);
+    }
+
+    header img {
+      width: 280px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: var(--amarelo);
+      color: var(--azul);
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+
+    .cta {
+      background-color: var(--azul);
+      color: var(--branco);
+      padding: 14px 28px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: var(--amarelo);
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .feature-box {
+      background-color: var(--amarelo);
+      color: var(--azul);
+      padding: 30px;
+      border-radius: 8px;
+      width: 220px;
+    }
+
+    .marcas {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .marcas img {
+      max-width: 120px;
+      opacity: 0.9;
+      transition: transform 0.3s ease;
+    }
+
+    .marcas img:hover {
+      transform: scale(1.05);
+    }
+
+    .mapa iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 300px;
+      border: 0;
+      border-radius: 12px;
+      margin-top: 30px;
+    }
+
+    footer {
+      background-color: #000a33;
+      text-align: center;
+      color: #ccc;
+      padding: 20px;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="img/logo.png" alt="Logo Paulo Neto Construções">
+  </header>
+
+  <section class="hero">
+    <h1>Inspire, respire, Construa!</h1>
+    <p>Na Paulo Neto Construções você encontra tudo para sua obra com qualidade, confiança e entrega rápida.</p>
+    <a class="cta" href="https://wa.me/5598984388342" target="_blank">Solicite seu Orçamento</a>
+  </section>
+
+  <section class="section">
+    <h2>Destaques da Loja</h2>
+    <div class="features">
+      <div class="feature-box">
+        <h3>10+</h3>
+        <p>Anos de mercado</p>
+      </div>
+      <div class="feature-box">
+        <h3>1.000+</h3>
+        <p>Clientes atendidos</p>
+      </div>
+      <div class="feature-box">
+        <h3>100%</h3>
+        <p>Entrega rápida</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Nossos Produtos</h2>
+    <p>Cimento, tijolos, areia, brita, telhas, tintas (Coral e Suvinil), materiais elétricos, hidráulicos, cerâmicas e muito mais.</p>
+  </section>
+
+  <section class="section">
+    <h2>Marcas Parceiras</h2>
+    <div class="marcas">
+      <img src="https://logospng.org/download/suvinil/logo-suvinil-512.png" alt="Suvinil">
+      <img src="https://imagensempng.com.br/wp-content/uploads/2023/05/61.png" alt="Coral">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwlyifT9yZluPaS6nypFx4yWjZQNSD0cqI3g&s" alt="Apodi">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRucw7y6jrTfeHO3ugAlwMSmfbH3RrM7sE1uw&s" alt="Fortleve">
+      
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Localização</h2>
+    <p>Venha nos visitar em nossa loja física:</p>
+    <div class="mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.5241232255457!2d-45.66814152502961!3d-2.951951097024268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92b45fa0d4a4c8d7%3A0x2e06ba6cb6601d84!2sPaulo%20Neto%20Constru%C3%A7%C3%B5es!5e0!3m2!1spt-BR!2sbr!4v1744333490313!5m2!1spt-BR!2sbr" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Paulo Neto Construções - Todos os direitos reservados</p>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5598984388342" target="_blank">WhatsApp</a>
+</body>
+</html>
